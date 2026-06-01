@@ -52,24 +52,100 @@ h3{
 }
 
 #sec4 {
-    height: 50vh; 
+    height: 100vh;
     background-color: #cbc0ac;
     padding:0;
 }
 
+#sec5 {
+    height: 50vh; 
+    background-color: #ece5e0;
+    padding:0;
+}
+
+
+/* From Uiverse.io by bhaveshxrawat */ 
+.card {
+  width: 200px;
+  height: 200px;
+  background: #ece5e0;
+  position: relative;
+  display: flex;
+  place-content: center;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 20px;
+  transition: 0.5s;
+  margin: 10px;
+}
+
+.card p {
+  z-index: 1;
+  color: white;
+  font-size: 25px;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  width: 100px;
+  background-image: linear-gradient(180deg, #2d524a, #ad8257);
+  height: 130%;
+  animation: rotBGimg 3s linear infinite;
+  transition: all 0.2s linear;
+}
+
+@keyframes rotBGimg {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card::after {
+  content: '';
+  position: absolute;
+  background: #cbc0ac;
+  ;
+  inset: 5px;
+  border-radius: 15px;
+}  
+
+
+.card:hover{
+    background: transparent;
+    transition: 0.5s;
+}
+/* .card:hover:before {
+  background-image: linear-gradient(180deg, rgb(81, 255, 0), purple);
+  animation: rotBGimg 3.5s linear infinite;
+} */
+
+
+
+
+
 .product {
     width: 50%;
     height: 470px;
+    
+}
+
+.product .title {
+    color: #2d524a;
 }
 
 .left{
     align-self: left;
-    background-color: white;
+    background-color: #ece5e0;;
 }
 
 .right{
     align-self: right;
-    background-color: lightgrey;
+    background-color: #cbc0ac;
 }
 
 
@@ -77,9 +153,14 @@ video{
     height: 600px;
 }
 
+img{
+    height: 165px;
+    padding-left: 39%;
+}
+
 /* From Uiverse.io by joe-watson-sbf */ 
 .flip-card {
-  background-color: transparent;
+  background-color:#ece5e0;
   margin-left: 30px;
   width: 190px;
   height: 254px;
