@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Quicksand:wght@300..700&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 
 body{
     background-color: #232324;
@@ -8,23 +9,23 @@ body{
 }
 
 p{
-    font-family: 'ubuntu', 'sans-serif';
+    font-family: 'Quicksand', 'sans-serif';
     text-align: center;
     padding: 0;
     margin: 0;
 }
 
 h2{
-    font-family: 'ubuntu', 'sans-serif';
-    text-align: center;
+    font-family: 'Lexend Deca', 'sans-serif';
     padding: 0;
     margin: 0;
-    color: white;
-    font-size: 100px;
+    color: #2d524a;
+    font-size: 140px;
+    width: 80%;
 }
 
 h3{
-    font-family: 'ubuntu', 'sans-serif';
+    font-family: 'Lexend Deca', 'sans-serif';
     text-align: center;
     font-size: 40px;
     padding: 0;
@@ -33,13 +34,14 @@ h3{
 }
 
 #sec1 {
-    height: 100vh;
+    height: 120vh;
     padding:0;
+    background-color: #ece5e0;
 }
 
 #sec2 {
     height: 100vh;
-    background-color: #ece5f1;
+    background-color: #cbc0ac;
     padding:0;
 }
 
@@ -51,10 +53,29 @@ h3{
 
 #sec4 {
     height: 50vh; 
-    background-color: black;
+    background-color: #cbc0ac;
     padding:0;
 }
 
+.product {
+    width: 50%;
+    height: 470px;
+}
+
+.left{
+    align-self: left;
+    background-color: white;
+}
+
+.right{
+    align-self: right;
+    background-color: lightgrey;
+}
+
+
+video{
+    height: 600px;
+}
 
 /* From Uiverse.io by joe-watson-sbf */ 
 .flip-card {
